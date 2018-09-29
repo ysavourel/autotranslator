@@ -8,7 +8,7 @@
 	<packaging>jar</packaging>
 
 	<name>autotranslator</name>
-	<url>http://maven.apache.org</url>
+	<url>https://github.com/ysavourel/autotranslator</url>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -84,12 +84,15 @@
 			<artifactId>okapi-step-msbatchtranslation</artifactId>
 			<version>${okapiLib.version}</version>
 		</dependency>
-
 		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>3.8.1</version>
-			<scope>test</scope>
+			<groupId>net.sf.okapi.steps</groupId>
+			<artifactId>okapi-step-leveraging</artifactId>
+			<version>${okapiLib.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>net.sf.okapi.connectors</groupId>
+			<artifactId>okapi-connector-google</artifactId>
+			<version>${okapiLib.version}</version>
 		</dependency>
 	</dependencies>
 
