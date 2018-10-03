@@ -1,5 +1,6 @@
 # autotranslator
 Simple MT-based translator of documents using the [Okapi Framework](https://okapiframework.org).
+The tool demonstrate how to use Okapi's filters, pipelines and connectors to take a document and machine-translate it.
 
 ## To build
 To build the tool, from the project root directory:
